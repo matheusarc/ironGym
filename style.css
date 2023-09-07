@@ -139,18 +139,51 @@ img {
 
 /* why us content */
 .whyUsContent {
-    background: yellow;
+    background: #121212;
+    color: white;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    height: 100vh;
+}
+.choose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .whyChooseUs {
-    display: flex;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 35px;
+
 }
 .whyChooseUs2 {
+    font-family: normal, sans-serif;
+    font-size: 15px;
+
+    width: 38vw;
+    text-align: center;
+}
+.contentBoxes {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 40px;
+    margin-top: 5%;
+}
+
+/* left box */
+.Lbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 40px;
 }
 .box01 {
     border: 1px solid red;
@@ -158,6 +191,7 @@ img {
     flex-direction: column;
 
     width: 26%;
+    padding: 15px;
 }
 .box02 {
     border: 1px solid red;
@@ -165,4 +199,31 @@ img {
     flex-direction: column;
 
     width: 26%;
+
+    padding: 15px;
+}
+
+/* right box */
+.Rbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 40px;
+}
+    .box03 {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+
+    width: 26%;
+    padding: 15px;
+}
+.box04 {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+
+    width: 26%;
+    padding: 15px;
 }
