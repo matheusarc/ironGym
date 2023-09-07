@@ -85,3 +85,36 @@ body {
     font-size: 21px;
     font-family: 'Bebas Neue', sans-serif;
 }
+.infos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.info1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info1 .tRed {
+    color: red;
+    font-size: 35px;
+}
+.info2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info2 .tRed {
+    color: red;
+    font-size: 35px;
+}
+.info3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info3 .tRed {
+    color: red;
+    font-size: 35px;
+}
