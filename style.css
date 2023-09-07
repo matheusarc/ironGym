@@ -26,6 +26,9 @@ img {
     background: transparent;
     border-bottom: 1px solid #E2E2E2;
 }
+.navbar a {
+    text-decoration: none;
+}
 .navbar img {
     width: 120px;
     height: 32px;
