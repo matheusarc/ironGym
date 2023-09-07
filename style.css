@@ -5,11 +5,16 @@
 body {
     font-family: 'Bebas Neue', sans-serif;
 
-    background: url(./Assets/bgimg.png);
     background-size: cover;
 }
-
+img {
+    position: absolute;
+}
 /* header */
+.conteiner {
+    background: url(./Assets/bgimg.png);
+}
+
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -90,6 +95,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 50px;
+    margin-top: 5%;
 }
 .info1 {
     display: flex;
@@ -99,6 +105,7 @@ body {
 .info1 .tRed {
     color: red;
     font-size: 35px;
+    font-family: 'Bebas Neue', sans-serif;
 }
 .info2 {
     display: flex;
@@ -108,13 +115,20 @@ body {
 .info2 .tRed {
     color: red;
     font-size: 35px;
+    font-family: 'Bebas Neue', sans-serif;
 }
 .info3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Bebas Neue', sans-serif;
 }
 .info3 .tRed {
     color: red;
     font-size: 35px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.infos span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 }
