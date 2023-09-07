@@ -12,8 +12,9 @@ img {
 }
 /* header */
 .conteiner {
-    background: url(./Assets/bgimg.png);
-    background: cover no-repeat;
+    background: url(./Assets/bgimg.png), no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 
 .navbar {
