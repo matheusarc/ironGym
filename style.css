@@ -147,7 +147,7 @@ img {
     align-items: center;
     justify-content: center;
 
-    height: 100vh;
+    height: 130vh;
 }
 .choose {
     display: flex;
@@ -176,7 +176,12 @@ img {
     gap: 40px;
     margin-top: 5%;
 }
-
+.contentBoxes h1 {
+    color: red;
+}
+.num {
+    margin-bottom: 3%;
+}
 /* left box */
 .Lbox {
     display: flex;
@@ -190,17 +195,44 @@ img {
     display: flex;
     flex-direction: column;
 
-    width: 26%;
-    padding: 15px;
+    width: 30%;
+    padding: 19px 45px;
+}
+.box01 span {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    font-size: 38px;
+}
+.box01 p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
 }
 .box02 {
     border: 1px solid red;
     display: flex;
     flex-direction: column;
 
-    width: 26%;
-
-    padding: 15px;
+    width: 30%;
+    padding: 19px 45px;
+}
+.box02 span {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    font-size: 38px;
+}
+.box02 p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
 }
 
 /* right box */
@@ -211,19 +243,54 @@ img {
 
     gap: 40px;
 }
-    .box03 {
+.box03 {
     border: 1px solid red;
     display: flex;
     flex-direction: column;
 
-    width: 26%;
-    padding: 15px;
+    width: 30%;
+    padding: 19px 45px;
+}
+.box03 span {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    font-size: 38px;
+}
+.box03 p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
 }
 .box04 {
     border: 1px solid red;
     display: flex;
     flex-direction: column;
 
-    width: 26%;
-    padding: 15px;
+    width: 30%;
+    padding: 19px 45px;
+}
+.box04 span {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    font-size: 38px;
+}
+.box04 p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+.num {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    font-size: 38px;
 }
