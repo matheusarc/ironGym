@@ -137,21 +137,32 @@ img {
     font-size: 16px;
 }
 
-/* content1 */
-.content1 {
-    background: #121212;
+/* why us content */
+.whyUsContent {
+    background: yellow;
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 2px;
+    justify-content: center;
 }
-.box1 {
-    background-color: red;
+.whyChooseUs {
+    display: flex;
+}
+.whyChooseUs2 {
+    display: flex;
+}
+.box01 {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+
     width: 26%;
 }
+.box02 {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
 
-.box3 {
-    background: red;
     width: 26%;
 }
