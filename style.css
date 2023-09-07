@@ -26,13 +26,13 @@ img {
     background: transparent;
     border-bottom: 1px solid #E2E2E2;
 }
+
 .navbar a {
     text-decoration: none;
 }
-.navbar img {
+.navbar .imgLogo {
     width: 120px;
-    height: 32px;
-
+    height: 35px;
 }
 .list {
     display: flex;
@@ -59,7 +59,7 @@ img {
 }
 
 /* content */
-.content {
+.content0 {
     color: white;
 
     display: flex; 
