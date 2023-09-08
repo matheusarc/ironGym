@@ -41,7 +41,7 @@
 }
 
 /* content */
-.content0 {
+.hero {
     font-family: 'Bebas Neue', sans-serif;
     background: url(./Assets/bgimg.png), no-repeat;
     background-size: cover;
@@ -81,6 +81,8 @@
     border: 1px solid red;
     color: red;
     padding: 12px;
+    margin-top: 56px;
+    margin-bottom: 82px;
     font-weight: 700;
     font-size: 21px;
     font-family: 'Bebas Neue', sans-serif;
@@ -107,7 +109,7 @@
     font-size: 16px;
 }
 
-/* why us content */
+/* why choose us content */
 .whyUsContent {
     background: #121212;
     color: white;
@@ -125,112 +127,28 @@
 }
 .whyChooseUs {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 35px;
-
+    font-size: 91px;
+    font-weight: 700;
+    line-height: 96px;
 }
 .whyChooseUs2 {
-    font-family: normal, sans-serif;
-    font-size: 15px;
-    width: 38vw;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    width: 580px;
+    line-height: 24px;
     text-align: center;
 }
+
+/* content box */
 .contentBoxes {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 40px;
+    width: 1300px;
     margin-top: 80px;
     margin-bottom: 72px;
-}
-.contentBoxes h1 {
-    color: red;
-}
-
-/* left box */
-.box01 {
-    border: 1px solid red;
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    padding: 24px 40px;
-}
-.box01 span {
-    font-family: 'Bebas Neue';
-    font-style: normal;
-    font-weight: 700;
-    line-height: 48px;
-    font-size: 38px;
-}
-.box01 p {
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 24px;
-}
-.box02 {
-    border: 1px solid red;
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    padding: 24px 40px;
-}
-.box02 span {
-    font-family: 'Bebas Neue';
-    font-style: normal;
-    font-weight: 700;
-    line-height: 48px;
-    font-size: 38px;
-}
-.box02 p {
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 24px;
-}
-.box03 {
-    border: 1px solid red;
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    padding: 24px 40px;
-}
-.box03 span {
-    font-family: 'Bebas Neue';
-    font-style: normal;
-    font-weight: 700;
-    line-height: 48px;
-    font-size: 38px;
-}
-.box03 p {
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 24px;
-}
-.box04 {
-    border: 1px solid red;
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    padding: 24px 40px;
-}
-.box04 span {
-    font-family: 'Bebas Neue';
-    font-style: normal;
-    font-weight: 700;
-    line-height: 48px;
-    font-size: 38px;
-}
-.box04 p {
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 24px;
 }
 .num {
     font-family: 'Bebas Neue';
@@ -238,4 +156,43 @@
     font-weight: 700;
     line-height: 48px;
     font-size: 38px;
+}
+.boxTitle {
+    color: red;
+    font-family: 'bebas neue';
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.pContent {
+    font-family: 'poppins';
+    font-size: 16px;
+}
+.box01 {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 24px 40px;
+}
+.box02 {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 24px 40px;
+}
+.box03 {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 24px 40px;
+}
+.box04 {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 24px 40px;
 }
