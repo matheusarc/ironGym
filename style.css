@@ -42,16 +42,16 @@
 
 /* content */
 .hero {
+    color: white;
     font-family: 'Bebas Neue', sans-serif;
-    background: url(./Assets/bgimg.png), no-repeat;
+    background-image: url(./Assets/bgimg.png);
+    background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    color: white;
     display: flex; 
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;  
-
 }
 .conteinerHero {
     max-width: 1100px;
@@ -199,23 +199,28 @@
 
 /* About Us Content */
 .aboutUs {
-    background: url(./Assets/aboutUsImg.png) no-repeat;
     color: white;
+    background: url(./Assets/aboutUsImg.png);
+    background-repeat: no-repeat;
     background-size: cover;
-    max-width: 1440px;
     width: 100%;
-    height: 768px;
-    margin: 0;
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;   
+}
+.conteinerAboutUs {
+    max-width: 1100px;
+    width: 1100px;
+    margin: 0 auto;
 }
 .aboutUsContent {
     display: flex;
     flex-direction: column;
     max-width: 602px;
     width: 100%;
-    margin: 170px 740px 232px 98px;
+    margin: 170px 740px 232px 0px;
 }
-
 .aboutUsTitle {
     font-family: 'bebas neue';
     font-size: 91px;
