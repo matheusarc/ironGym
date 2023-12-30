@@ -223,7 +223,7 @@
     align-items: flex-start;
     justify-content: center;   
 }
-.conteinerAboutUs {
+.AboutUs {
     max-width: 1100px;
     width: 1100px;
     margin: 0 auto;
@@ -321,9 +321,53 @@ span.jhony {
     margin-top: 40px;
     margin-bottom: 16px;
 }
+.centerTestimonials {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
 .jhonyImg {
     margin-top: 0;
     margin-bottom: 56px;
     border-radius: 4px;
     box-shadow: 3px 3px 1px black;
+}
+/* CTA LANDING */
+.CTA {
+    background: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+}
+.CTA > svg {
+    position: absolute;
+    width: 1228px;
+    height: 674px;
+}
+.insideContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CTAman {
+    position: relative;
+    margin-top: -55px;
+    width: 536.798px;
+    height: 695.433px;
+}
+.CTAh1 {
+    margin-top: -400px;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 91px;
+    line-height: 96px;
+    position: relative;
+}
+.CTAh1Red {
+    color: red;
+}
+.CTAp {
+    position: relative;
+    color: white;
 }
